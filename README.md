@@ -3,7 +3,8 @@ A. Hal-hal yang perlu dipersiapkan dan dipasang instalasi software sebelum melak
 1. Node.js
 2. Git Bash
 3. Visual Studio Code
-4. Install ekstensi Waboxapp
+4. Postman
+5. Install ekstensi Waboxapp di Google Chrome saja
 
 B. Cek service memastikan sudah terpasang dengan baik:
 - Node Version
