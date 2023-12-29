@@ -3,6 +3,7 @@ A. Hal-hal yang perlu dipersiapkan dan dipasang instalasi software sebelum melak
 1. Node.js
 2. Git Bash
 3. Visual Studio Code
+4. Install ekstensi Waboxapp
 
 B. Cek service memastikan sudah terpasang dengan baik:
 - Node Version
