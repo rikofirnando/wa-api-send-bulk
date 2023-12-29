@@ -41,4 +41,19 @@ mkdir wa-api
 ```
 cd wa-api
 ```
-8. 
+8. Generate project
+```
+express --view=ejs wa-api
+```
+9. Install packages
+```
+npm install
+```
+10. Jalankan NPM tersebut
+```
+npm start
+```
+11. Install nodemon
+```
+npm install nodemon --save-dev
+```
