@@ -43,23 +43,25 @@ mkdir wa-api
 ```
 cd wa-api
 ```
-8. Generate project
+E. Generate project, Install packages, dan jalankan NPM
+1. Generate project
 ```
 express --view=ejs wa-api
 ```
-9. Install packages
+2. Install packages
 ```
 npm install
 ```
-10. Jalankan NPM tersebut
+3. Jalankan NPM tersebut
 ```
 npm start
 ```
-11. Install nodemon
+F. Install nodemon, Ubah salah satu line pada file "package.json", Jalankan kembali npm-nya, Ubah salah satu line pada file "index.js", dan Kemudian, pengetesan menggunakan Postman
+1. Install nodemon
 ```
 npm install nodemon --save-dev
 ```
-12. Ubah salah satu dari skrip Package.json
+2. Ubah salah satu line pada file "package.json"
 Pada bagian berikut:
 ```
   "scripts": {
@@ -71,3 +73,27 @@ Menjadi
     "start": "nodemon ./bin/www"
 ```
 
+3. Jalankan kembali npm-nya
+```
+npm start
+```
+
+4. Ubah salah satu line pada file "index.js"
+```
+res.render('index', { title: 'Express' });
+```
+Menjadi
+```
+res.send({code: 1000, message: 'success'})
+```
+5. Kemudian, pengetesan menggunakan Postman
+- Masukan "Method: GET"
+- Masukan "Endpoint: localhost:3000"
+- Send
+- Jika muncul respon 200 OK dan
+```
+"code": 1000,
+"message": "success"
+```
+
+G. 
