@@ -57,3 +57,15 @@ npm start
 ```
 npm install nodemon --save-dev
 ```
+12. Ubah salah satu dari skrip Package.json
+Pada bagian berikut:
+```
+  "scripts": {
+    "start": "node ./bin/www"
+```
+Menjadi
+```
+  "scripts": {
+    "start": "nodemon ./bin/www"
+```
+
